@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href= />
     <title>Reservia</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="logo">
         <a href="./Index.html">
@@ -16,17 +17,37 @@
           />
         </a>
       </div>
-      <div class="announcement">
-        <h1>
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="#">Hébergements</a>
+          </li>
+          <li>
+            <a href="#">Activités</a>
+          </li>
+          <li>
+            <a href="#">s'inscrire</a>
+          </li>
+        </ul>
+    </header>
+<!-- Main -->
+<main class="main">
+  <!-- Search -->
+  <section class="search">
+
+     <div class="searchHeader">
+        <h1 class="searchHeaderTitle">
           votre hébergement pour des vacances de rêve
         <h1>
-        <h2>En plein centre ville ou en pleine nature</h2>
+        <p class="searchHeaderSubtitle">En plein centre ville ou en pleine nature</p>
       </div>
-      <div class="nav">
-        <nav>
-          <ul></ul>
-        </nav>
-      </div>
-    </header>
+        <form action="searchBar">
+          <input type="text" placeholder="Marseille,France" />
+          <button type="submit">
+            <img src="" alt="l'icone de recherche" />
+          </button>
+        </form>
+      </section>
+</main>
   </body>
 </html>
