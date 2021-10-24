@@ -1,0 +1,20 @@
+{
+  "name": "reservia",
+  "version": "1.0.0",
+  "description": "Projet 2 Openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy-lorette/Reservia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremy-lorette/Reservia/issues"
+  },
+  "homepage": "https://github.com/jeremy-lorette/Reservia#readme"
+}
