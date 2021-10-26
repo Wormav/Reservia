@@ -8,4 +8,11 @@ body {
   font-family: "Raleway", "Sans serif";
 }
 
+.header {
+  display: grid;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
