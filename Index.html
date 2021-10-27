@@ -25,16 +25,20 @@
   <!-- Search -->
   <section class="search">
 
-     <div class="searchHeader">
+     <header class="searchHeader">
         <h1 class="searchHeaderTitle">
-          votre hébergement pour des vacances de rêve
+         Trouvez votre hébergement pour des vacances de rêve
         <h1>
         <p class="searchHeaderSubtitle">En plein centre ville ou en pleine nature</p>
-      </div>
-        <form action="searchBar">
-          <input type="text" placeholder="Marseille,France" />
-          <button type="submit">
-            <img src="" alt="l'icone de recherche" />
+        </header>
+        <form action="searchBar" action="proceedFrom.html" method="GET">
+          <span class="searchBarWrapicon">
+            <i class="searchBarWrapiconIcon"></i>
+          </span>
+          <input class="searchSubmit" type="search" placeholder="Marseille,France" size="1" />
+          <button type="searchSubmitButton">
+            <span class="searchSubmitButtonText">Rechercher</span>
+            <i class="searchSubmitButtonIcon"></i>
           </button>
         </form>
         <div class="searchFilters">

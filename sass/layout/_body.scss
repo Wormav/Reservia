@@ -1,0 +1,75 @@
+//*** main ***//
+
+.main {
+     max-width: 1440px;
+     padding: 0 2rem;
+     margin: auto;
+     box-sizing: border-box;
+}
+
+//*** search ***//
+
+.searchHeaderTitle{
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     margin-bottom: -1rem;
+ }
+
+ .searchHeaderSubtitle {
+     font-size: 15px;
+ }
+
+ .searchBar {
+     display: inline-flex;
+     max-width: 100%;
+     overflow: auto;
+ }
+
+ .searchBarWrapicon{
+     background-color: $grey;
+     padding: 1rem 1rem;
+     border-radius: 1rem 0 0 1rem;
+     text-align: center;
+ }
+
+ .searchBarWrapiconIcon{
+     margin-left: 0.1rem;
+ }
+
+ .searchSubmit {
+     border-right: none;
+     border-left: none;
+     border-top: $grey 1px solid;
+     border-bottom: $grey 1px solid;
+     padding: 0.92rem 1rem;
+     box-sizing: border-box;
+     width: 14rem;
+     font-size: 1rem;
+     font-weight: bold;
+     font-family: "Raleway", "Sans serif";
+ }
+
+ .searchSubmit::placeholder{
+     font-family: "Raleway", "Sans serif";
+     font-size: 1rem;
+     color: #00000069;
+
+ }
+
+ .searchSubmitButton {
+     border: none;
+ }
+
+ .searchSubmitButtonIcon {
+     background-color: #0065FC;
+     color: white;
+     font-weight: bold;
+     border: none;
+     border-radius: 0 1rem 1rem 0;
+     padding: 0 2rem;
+     font-family: "Raleway", "Sans serif";
+     font-size: 1rem;
+     cursor: pointer;
+ }
+
