@@ -57,19 +57,11 @@
 
  }
 
- .searchSubmitButton {
-     border: none;
+ .searchButton {
+     width: 92px;
+    height: 40px;
+    background-color: blue;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
  }
-
- .searchSubmitButtonIcon {
-     background-color: #0065FC;
-     color: white;
-     font-weight: bold;
-     border: none;
-     border-radius: 0 1rem 1rem 0;
-     padding: 0 2rem;
-     font-family: "Raleway", "Sans serif";
-     font-size: 1rem;
-     cursor: pointer;
- }
-
+ 
