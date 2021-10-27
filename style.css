@@ -108,12 +108,16 @@ a {
   border-left: none;
   border-top: #F2F2F2 1px solid;
   border-bottom: #F2F2F2 1px solid;
-  padding: 0.92rem 1rem;
+  padding: 0.94rem 1.5rem;
   box-sizing: border-box;
   width: 14rem;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
+}
+
+input:focus {
+  outline: none;
 }
 
 .searchSubmit::placeholder {
@@ -122,18 +126,17 @@ a {
   color: #00000069;
 }
 
-.searchSubmitButton {
-  border: none;
-}
-
-.searchSubmitButtonIcon {
+.searchButton {
   background-color: #0065FC;
+  width: auto;
+  height: 3.2rem;
+  margin-left: -1rem;
   color: white;
   font-weight: bold;
   border: none;
   border-radius: 0 1rem 1rem 0;
-  padding: 0 2rem;
-  font-family: "Raleway", "Sans serif";
+  padding: 0 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif "Sans serif";
   font-size: 1rem;
   cursor: pointer;
 }
