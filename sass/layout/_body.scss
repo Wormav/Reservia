@@ -28,7 +28,7 @@
 
  .searchBarWrapicon{
      background-color: $grey;
-     padding: 1rem 1rem;
+     padding: 1.01rem 1rem;
      border-radius: 1rem 0 0 1rem;
      text-align: center;
  }
@@ -40,18 +40,17 @@
  .searchSubmit {
      border-right: none;
      border-left: none;
-     border-top: $grey 1px solid;
-     border-bottom: $grey 1px solid;
-     padding: 0.94rem 1.5rem;
+     border-top:$grey 1px solid;
+     border-bottom:$grey 1px solid;
+     padding: 0.949rem 1.5rem;
      box-sizing: border-box;
-     width: 14rem;
+     width: 13rem;
      font-size: 1rem;
      font-weight: bold;
      font-family: "Raleway", "Sans serif";
  }
- input:focus {
-     outline:  none;
-}
+ 
+
 
  .searchSubmit::placeholder{
      font-family: "Raleway", "Sans serif";
@@ -61,10 +60,10 @@
  }
 
  .searchButton {
-     background-color: #0065FC;
+     background-color: $blue;
      width: auto;
-     height: 3.2rem;
-     margin-left: -1rem;
+     height: 3.234rem;
+     margin-left: -1.5rem;
      color: white;
      font-weight: bold;
      border: none;
@@ -74,6 +73,10 @@
      font-size: 1rem;
      cursor: pointer;
  }
+
+ input:focus {
+     outline:  none;
+}
  
 
  //!!! Faire alignement barre de recherche trouver problème !!!//
