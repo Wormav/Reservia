@@ -222,4 +222,24 @@ input:focus {
   margin: 0;
 }
 
+.hosting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.hostingMain {
+  display: flex;
+  background-color: #F2F2F2;
+  padding: 1rem;
+  white-space: wrap;
+}
+
+.hostingMainElementFigureImg {
+  width: 150%;
+  border-radius: 1rem;
+  box-shadow: black 0.1rem 0.1rem 0.3rem;
+}
+
 /*# sourceMappingURL=style.css.map */

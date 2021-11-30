@@ -165,7 +165,26 @@
 }
 
 
-//*** search ***//
+//*** Search ***//
 
 //*** Hosting ***//
 
+.hosting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.hostingMain {
+    display: flex;
+    background-color: $grey;
+    padding: 1rem;
+    white-space: wrap;
+}
+
+.hostingMainElementFigureImg {
+    width: 150%;
+    border-radius: 1rem;
+    box-shadow: black 0.1rem 0.1rem 0.3rem;
+}
