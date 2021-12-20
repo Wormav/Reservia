@@ -170,21 +170,64 @@
 //*** Hosting ***//
 
 .hosting {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2rem 0;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: 6fr 3fr;
 }
-
 .hostingMain {
-    display: flex;
-    background-color: $grey;
-    padding: 1rem;
-    white-space: wrap;
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.hostingMainHeader {
+  grid-column: 1/-1;
+}
+.hostingMainHeaderTitle {
+  margin: 0;
+}
+.hostingMainElement {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 100%;
+}
+.hostingMainElement:hover {
+  transform: scale(1.02);
+}
+.hostingMainElementFigure {
+  margin: 0;
+}
+.hostingMainElementFigureImg {
+  height: 7rem;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  border-radius: 1rem 1rem 0 0;
 }
 
-.hostingMainElementFigureImg {
-    width: 150%;
-    border-radius: 1rem;
-    box-shadow: black 0.1rem 0.1rem 0.3rem;
+.hostingMainElementFicaptionLegend {
+  margin: 0.25rem 0.75rem 0 0.75rem;
+}
+.hostingMainElementRate {
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.hostingMainElementRatePrice {
+  font-weight: bold;
+}
+.hostingMainElementNotation {
+  margin: 0 0.75rem 0.25rem 0.75rem;
+}
+.hostingMainElementNotationIcon[data-active=true] {
+  color: #0065FC;
+}
+.hostingMainElementNotationIcon[data-active=false] {
+  color: #d9d9d9;
+}
+.hostingMainViewmore {
+  font-weight: bold;
 }
