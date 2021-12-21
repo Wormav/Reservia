@@ -78,12 +78,12 @@ a {
 .searchHeaderTitle {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: -1rem;
 }
 
 .searchHeaderSubtitle {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .searchBar {
@@ -110,7 +110,7 @@ a {
   border-bottom: #F2F2F2 1px solid;
   padding: 0.949rem 1.5rem;
   box-sizing: border-box;
-  width: 13rem;
+  width: 20rem;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
@@ -152,7 +152,7 @@ input:focus {
   margin: 0 1rem 0rem 0;
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   font-family: sans-serif;
 }
 
@@ -169,6 +169,11 @@ input:focus {
   align-items: center;
 }
 
+.searchFiltersElemenTitle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .searchFiltersTitle:hover {
   background-color: #f3F8FF;
   transform: scale(1.015);
@@ -177,8 +182,8 @@ input:focus {
 .searchFiltersWrapicon {
   background-color: #DEEBFF;
   border-radius: 100%;
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   min-width: 3.5rem;
   min-height: 3.5rem;
   display: flex;
@@ -224,19 +229,23 @@ input:focus {
 
 .hosting {
   display: flex;
-  background-color: green;
 }
 
 .hostingMain {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: hotpink;
-  max-width: 75%;
+  background-color: #F2F2F2;
+  height: 620px;
+  width: 882px;
+  border-radius: 1.25rem;
 }
 
-.hostingMainHeaderTitle {
-  margin: 0;
+.hostingMainHeader {
+  padding-left: 2rem;
+  padding-right: 20rem;
+  padding-bottom: 1rem;
+  height: 0.5rem;
 }
 
 .hostingMainElement {
@@ -247,8 +256,11 @@ input:focus {
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
-  height: 13%;
-  width: 20%;
+  height: 190px;
+  width: 230px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
 }
 
 .hostingMainElement:hover {
@@ -260,16 +272,17 @@ input:focus {
 }
 
 .hostingMainElementFigureImg {
-  height: 7rem;
+  height: 105px;
   object-fit: cover;
   max-width: 100%;
-  width: 100%;
+  width: 220px;
   max-height: 100%;
   border-radius: 1rem 1rem 0 0;
 }
 
 .hostingMainElementFicaptionLegend {
   margin: 0.25rem 0.75rem 0 0.75rem;
+  font-size: 0.85rem;
 }
 
 .hostingMainElementRate {
@@ -278,6 +291,7 @@ input:focus {
 
 .hostingMainElementRatePrice {
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .hostingMainElementNotation {
@@ -294,6 +308,11 @@ input:focus {
 
 .hostingMainViewmore {
   font-weight: bold;
+}
+
+.showMore {
+  font-weight: bold;
+  padding-left: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
