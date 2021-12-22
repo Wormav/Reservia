@@ -275,7 +275,6 @@
 
 .hostingPopularHeader {
   padding-left: 2rem;
-  padding-right: 20rem;
   padding-bottom: 1rem;
   height: 0.5rem;
 }
@@ -288,8 +287,8 @@
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
-  height: 190px;
-  width: 230px;
+  height: 160px;
+  width: 425px;
   margin-left: 2rem;
   margin-top: 0.5rem;
   margin-right: 2rem;
@@ -303,12 +302,12 @@
 }
 
 .hostingPopularElementFigureImg {
-  height: 105px;
+  height: 147px;
   object-fit: cover;
   max-width: 100%;
-  width: 220px;
+  width: 140px;
   max-height: 100%;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 1rem 0 0 1rem;
 }
 
 .hostingPopularElementFicaptionLegend {
