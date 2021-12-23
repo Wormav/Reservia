@@ -325,12 +325,34 @@ input:focus {
   height: 623px;
   width: 500px;
   border-radius: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hostingPopularElementA {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100%;
+  overflow: auto;
+}
+
+.hostingPopularElementFigcaption {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .hostingPopularHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 2rem;
   padding-bottom: 1rem;
-  height: 0.5rem;
+  height: 0.7rem;
+}
+
+.hostingPopularHeaderTitleIcon {
+  margin-left: 12rem;
 }
 
 .hostingPopularElement {
@@ -344,8 +366,7 @@ input:focus {
   height: 160px;
   width: 425px;
   margin-left: 2rem;
-  margin-top: 0.5rem;
-  margin-right: 2rem;
+  margin-top: 2.2rem;
 }
 
 .hostingPopularElement:hover {
@@ -363,15 +384,16 @@ input:focus {
   width: 140px;
   max-height: 100%;
   border-radius: 1rem 0 0 1rem;
+  position: absolute;
 }
 
 .hostingPopularElementFicaptionLegend {
-  margin: 0.25rem 0.75rem 0 0.75rem;
-  font-size: 0.85rem;
+  margin: 0.25rem 0.75rem 0 10rem;
+  font-size: 1rem;
 }
 
 .hostingPopularElementRate {
-  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+  margin-left: 10rem;
 }
 
 .hostingPopularElementRatePrice {
@@ -380,7 +402,7 @@ input:focus {
 }
 
 .hostingPopularElementNotation {
-  margin: 0 0.75rem 0.25rem 0.75rem;
+  margin-left: 10rem;
 }
 
 .hostingPopularElementNotationIcon[data-active=true] {
