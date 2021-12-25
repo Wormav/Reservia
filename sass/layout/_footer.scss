@@ -1,0 +1,28 @@
+.footer {
+    background-color: $grey;
+    
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 20rem;
+}
+
+.fotterContainerLink {
+    margin: 0.5rem;
+}
+
+.footerContainerAbout {
+    @include footerContainerElement;
+}
+
+.footerContainerHosting {
+    @include footerContainerElement;
+}
+
+.footerContainerHosting {
+    @include footerContainerElement;
+}

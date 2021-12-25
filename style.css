@@ -512,4 +512,41 @@ input:focus {
   transform: scale(1.02);
 }
 
+.footer {
+  background-color: #F2F2F2;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-right: 20rem;
+}
+
+.fotterContainerLink {
+  margin: 0.5rem;
+}
+
+.footerContainerAbout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+
+.footerContainerHosting {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+
+.footerContainerHosting {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
