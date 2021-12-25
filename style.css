@@ -78,12 +78,12 @@ a {
 .searchHeaderTitle {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   margin-bottom: -1rem;
 }
 
 .searchHeaderSubtitle {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .searchBar {
@@ -110,7 +110,7 @@ a {
   border-bottom: #F2F2F2 1px solid;
   padding: 0.949rem 1.5rem;
   box-sizing: border-box;
-  width: 20rem;
+  width: 12.5rem;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
@@ -152,7 +152,7 @@ input:focus {
   margin: 0 1rem 0rem 0;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: sans-serif;
 }
 
@@ -239,8 +239,8 @@ input:focus {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #F2F2F2;
-  height: 620px;
-  width: 882px;
+  height: 38.75rem;
+  width: 55.125rem;
   border-radius: 1.25rem;
 }
 
@@ -259,8 +259,8 @@ input:focus {
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
-  height: 190px;
-  width: 230px;
+  height: 11.875rem;
+  width: 14.375rem;
   margin-left: 2rem;
   margin-top: 0.5rem;
   margin-right: 2rem;
@@ -275,10 +275,10 @@ input:focus {
 }
 
 .hostingMainElementFigureImg {
-  height: 105px;
+  height: 6.563rem;
   object-fit: cover;
   max-width: 100%;
-  width: 220px;
+  width: 13.75rem;
   max-height: 100%;
   border-radius: 1rem 1rem 0 0;
 }
@@ -322,8 +322,8 @@ input:focus {
   display: flex;
   flex-direction: column;
   background-color: #F2F2F2;
-  height: 623px;
-  width: 500px;
+  height: 38.938rem;
+  width: 31.25rem;
   border-radius: 1.25rem;
   margin-bottom: 1rem;
 }
@@ -363,8 +363,8 @@ input:focus {
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
-  height: 160px;
-  width: 425px;
+  height: 10rem;
+  width: 26.563rem;
   margin-left: 2rem;
   margin-top: 2.2rem;
 }
@@ -378,10 +378,10 @@ input:focus {
 }
 
 .hostingPopularElementFigureImg {
-  height: 147px;
+  height: 9.188rem;
   object-fit: cover;
   max-width: 100%;
-  width: 140px;
+  width: 8.75rem;
   max-height: 100%;
   border-radius: 1rem 0 0 1rem;
   position: absolute;
@@ -411,6 +411,142 @@ input:focus {
 
 .hostingPopularElementNotationIcon[data-active=false] {
   color: #d9d9d9;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 40rem;
+}
+
+.activityHeader {
+  margin-right: 20rem;
+  padding-right: 25rem;
+  padding-bottom: 1rem;
+  height: 0.5rem;
+}
+
+.activityHeaderTitle {
+  padding-bottom: 2rem;
+}
+
+.figureBig {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgBig {
+  height: 25rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
+}
+
+.figureMedium {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 16rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgMedium {
+  height: 11rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
+}
+
+.figureSmall {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 11rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgSmall {
+  height: 7rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
+}
+
+.activityElementFicaptionLegend {
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.activityElementFigure:hover {
+  transform: scale(1.02);
+}
+
+.footer {
+  background-color: #F2F2F2;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-right: 20rem;
+}
+
+.fotterContainerLink {
+  margin: 0.5rem;
+}
+
+.footerContainerAbout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+
+.footerContainerHosting {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+
+.footerContainerHosting {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
