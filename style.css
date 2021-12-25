@@ -359,7 +359,7 @@ input:focus {
   background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
+  box-shadow: 0 0 16px black;
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
