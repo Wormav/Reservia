@@ -47,7 +47,7 @@
      border-bottom:$grey 1px solid;
      padding: 0.949rem 1.5rem;
      box-sizing: border-box;
-     width: 1.25rem;
+     width: 12.5rem;
      font-size: 1rem;
      font-weight: bold;
      font-family: "Raleway", "Sans serif";
@@ -360,3 +360,111 @@
 //*** Hosting Popular ***//
 
 //*** Hosting ***//
+
+//*** Activity ***//
+
+.activity{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 40rem;
+}
+
+.activityHeader {
+  margin-right: 20rem;
+  padding-right: 25rem;
+  padding-bottom: 1rem;
+  height: 0.5rem;
+}
+
+.activityHeaderTitle {
+  padding-bottom: 2rem;
+  
+}
+
+.figureBig {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgBig {
+   height: 25rem;
+   width: 20rem;
+   padding: 0.375rem;
+   border-radius: 1.25rem 1.25rem 0 0 ;
+   margin-left: -0.75rem;
+   margin-top: -0.75rem;
+   overflow: hidden;
+   
+}
+
+
+.figureMedium {
+  background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 16rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgMedium {
+   height: 11rem;
+   width: 20rem;
+   padding: 0.375rem;
+   border-radius: 1.25rem 1.25rem 0 0 ;
+   margin-left: -0.75rem;
+   margin-top: -0.75rem;
+   overflow: hidden;
+}
+
+
+.figureSmall {
+   background-color: white;
+  padding: 0.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 11rem;
+  width: 20rem;
+  margin-left: 0rem;
+  margin-top: 2.2rem;
+}
+
+.imgSmall {
+   height: 7rem;
+   width: 20rem;
+   padding: 0.375rem;
+   border-radius: 1.25rem 1.25rem 0 0 ;
+   margin-left: -0.75rem;
+   margin-top: -0.75rem;
+   overflow: hidden;
+}
+
+.activityElementFicaptionLegend {
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.activityElementFigure:hover {
+  transform: scale(1.02);
+}
+
+//*** Activity ***//
+
