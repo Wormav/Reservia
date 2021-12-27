@@ -1,3 +1,25 @@
+//***** Navbar min screen *****//
+
+
+
+@media screen and (min-width: 600px){
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo none navbar Singnup ";
+  }
+
+  .headerNavLink[data-active=true] {
+    border-top: 3px solid $blue   
+  }
+
+  .headerNavLink:hover {
+    border-top: 3px solid $blue    
+  }
+
+}
+
+
+
 //***** STANDAR VERSION *****//
 
 @media (max-width: 1621px){
@@ -107,6 +129,10 @@
            
     }
 
+    .hostingPopularHeader{
+        margin-right: 30rem;
+    }
+
     .hostingPopularElement {
         height: 10rem;
         width: 30rem;
@@ -114,23 +140,83 @@
 
     .hostingMain {
         flex-direction: column;
-        flex-wrap: wrap;
-        width: 66rem;
+        width: auto;
+        height: 47rem;
         margin: 0;
     }
 
     .hostingMainHeader{
-        padding-bottom: 2rem;
+        padding-bottom: 0;
+        padding-right: 0;
         
     }
 
     .hostingMainElement {
-        margin-top: 2rem;
-         height: 10rem;
+         margin-top: 3.5rem;
+         margin-right: 0rem;
+         height: 11rem;
          width: 30rem;;
     }
 
     .hostingMainElementFigureImg {
         width: 30rem;
+    }
+
+    .hostingMainshowMore {
+        margin-left: 25rem;
+    }
+
+}
+
+@media (max-width: 1149px){
+    
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 20rem
+    }
+
+}
+
+
+@media (max-width:1126px) {
+    .main {
+        padding: 0;
+    }
+
+    .hostingPopular{
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .hostingPopularHeader{
+        margin-right: 0;
+    }
+
+
+    .hostingPopularElement{
+        width: 100rem;
+        margin-right: 2rem;
+    }
+
+    .hostingMain {
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        background-color: white;
+    }
+
+    .hostingMainElement{
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    .hostingMainElementFigureImg {
+        width: 50rem;
+    }
+
+    .hostingMainshowMore {
+        margin: 0;
     }
 }

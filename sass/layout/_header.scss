@@ -44,21 +44,3 @@ a {
   font-weight: 600;
 }
 
-//*** media ***//
-
-@media screen and (min-width: 600px){
-  .header {
-    grid-template-columns: auto 1fr auto auto;
-    grid-template-areas: "logo none navbar Singnup ";
-  }
-
-  .headerNavLink[data-active=true] {
-    border-top: 3px solid $blue   
-  }
-
-  .headerNavLink:hover {
-    border-top: 3px solid $blue    
-  }
-
-}
-
