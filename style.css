@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+.searchButton {
+  background-color: #0065FC;
+  width: auto;
+  height: 3.234rem;
+  margin-left: -1.5rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif "Sans serif";
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 body {
   font-family: "Raleway", "Sans serif";
   margin: 0;
@@ -122,21 +137,6 @@ a {
   color: #00000069;
 }
 
-.searchButton {
-  background-color: #0065FC;
-  width: auto;
-  height: 3.234rem;
-  margin-left: -1.5rem;
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 0 1rem 1rem 0;
-  padding: 0 1.5rem;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif "Sans serif";
-  font-size: 1rem;
-  cursor: pointer;
-}
-
 input:focus {
   outline: none;
 }
@@ -230,8 +230,8 @@ input:focus {
 .hosting {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-right: 9rem;
+  justify-content: space-around;
+  margin-right: 7rem;
 }
 
 .hostingMain {
@@ -242,6 +242,7 @@ input:focus {
   height: 38.75rem;
   width: 55.125rem;
   border-radius: 1.25rem;
+  margin-right: 4rem;
 }
 
 .hostingMainHeader {
@@ -359,7 +360,7 @@ input:focus {
   background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px black;
+  box-shadow: 0 0 16px 2;
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
@@ -505,7 +506,6 @@ input:focus {
 
 .activityElementFicaptionLegend {
   margin-left: 0.75rem;
-  margin-bottom: 0.5rem;
 }
 
 .activityElementFigure:hover {
@@ -547,6 +547,121 @@ input:focus {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 1rem 2rem;
+}
+
+@media (max-width: 1621px) {
+  .hostingMainElement {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .hostingPopularElement {
+    height: 10rem;
+    width: 22rem;
+  }
+
+  .hostingPopularHeaderTitleIcon {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1455px) {
+  .hostingMainElement {
+    height: 14rem;
+    width: 10rem;
+  }
+
+  .hostingMainElementFigureImg {
+    height: 6rem;
+    width: 13rem;
+  }
+
+  .hostingPopularElement {
+    height: 10rem;
+    width: 20rem;
+  }
+
+  .figureBig {
+    height: 30rem;
+    width: 15rem;
+    margin-left: 0rem;
+    margin-top: 2.2rem;
+  }
+
+  .imgBig {
+    height: 25rem;
+    width: 15rem;
+  }
+
+  .figureMedium {
+    height: 16rem;
+    width: 15rem;
+    margin-left: 0rem;
+    margin-top: 2.2rem;
+  }
+
+  .imgMedium {
+    height: 11rem;
+    width: 15rem;
+  }
+
+  .figureSmall {
+    height: 11rem;
+    width: 15rem;
+    margin-left: 0rem;
+    margin-top: 2.2rem;
+  }
+
+  .imgSmall {
+    height: 7rem;
+    width: 15rem;
+  }
+
+  .activityElementFicaptionLegend {
+    margin-bottom: 12rem;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1292px) {
+  .hosting {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin-right: 0rem;
+  }
+
+  .hostingPopular {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+  }
+
+  .hostingPopularElement {
+    height: 10rem;
+    width: 30rem;
+  }
+
+  .hostingMain {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 66rem;
+    margin: 0;
+  }
+
+  .hostingMainHeader {
+    padding-bottom: 2rem;
+  }
+
+  .hostingMainElement {
+    margin-top: 2rem;
+    height: 10rem;
+    width: 30rem;
+  }
+
+  .hostingMainElementFigureImg {
+    width: 30rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

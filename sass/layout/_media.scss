@@ -1,0 +1,136 @@
+//***** STANDAR VERSION *****//
+
+@media (max-width: 1621px){
+
+    .hostingMainElement {
+       height: 12rem;
+       width: 12rem;
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 22rem;
+    }
+
+    .hostingPopularHeaderTitleIcon {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1455px){
+
+//*** hosting ***//
+
+     .hostingMainElement {
+       height: 14rem;
+       width: 10rem;
+    }
+
+    .hostingMainElementFigureImg {
+       height: 6rem;
+       width: 13rem;
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 20rem;
+    }
+
+
+//*** activity ***//
+
+    .figureBig {
+        height: 30rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgBig {
+        height: 25rem;
+        width: 15rem;
+  
+        }
+
+
+    .figureMedium {
+        height: 16rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgMedium {
+        height: 11rem;
+         width: 15rem;
+  
+        }
+
+
+    .figureSmall {
+        height: 11rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgSmall {
+         height: 7rem;
+        width: 15rem;
+        }
+
+    .activityElementFicaptionLegend {
+        margin-bottom: 12rem;
+        font-size: 15px;
+        }
+
+}
+
+//***** ADAPTED VERSION *****//
+
+@media (max-width:1292px){
+
+
+    .hosting {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        margin-right: 0rem;
+  }
+
+    .hostingPopular {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+           
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 30rem;
+    }
+
+    .hostingMain {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 66rem;
+        margin: 0;
+    }
+
+    .hostingMainHeader{
+        padding-bottom: 2rem;
+        
+    }
+
+    .hostingMainElement {
+        margin-top: 2rem;
+         height: 10rem;
+         width: 30rem;;
+    }
+
+    .hostingMainElementFigureImg {
+        width: 30rem;
+    }
+}
