@@ -708,15 +708,36 @@ input:focus {
 
   .hostingMainElement {
     width: auto;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   .hostingMainElementFigureImg {
-    width: 50rem;
+    width: 100rem;
   }
 
   .hostingMainshowMore {
-    margin: 0;
+    margin: 1rem;
+  }
+
+  .activityHeader {
+    margin-left: 2rem;
+  }
+
+  .activity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 59rem;
+  }
+
+  .activityElementFigure {
+    height: 10rem;
+    width: auto;
+    margin: 2rem;
+  }
+
+  .activityElementFigureImg {
+    display: none;
   }
 }
 
