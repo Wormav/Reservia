@@ -184,6 +184,15 @@
         padding: 0;
     }
 
+    .searchHeaderTitle , .searchHeaderSubtitle , .searchBarWrapicon , .searchFiltersMainTitle ,.searchResult{
+        padding-left: 2rem;
+    }
+
+    .searchBarWrapicon {
+        padding: 1.01rem 1rem;
+        margin-left: 2rem;
+    }
+
     .hostingPopular{
         width: auto;
         height: auto;
@@ -226,18 +235,44 @@
 
     .activity {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 59rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-left: 2rem;
+    }
+
+    .activityHeader {
+        padding: 0;
+        margin-right: 0;
     }
 
     .activityElementFigure{
+        .figureBig{
+            width: auto;
+            height: auto;
+        }
+
+        .figureMedium{
+            width: auto;
+            height: auto;
+        }
+
+        .figureSmall{
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .activityElementFigure {
         height: 10rem;
-        width:  auto;
-        margin: 2rem;
+        width: auto;
     }
 
     .activityElementFigureImg{
-        display:none
+       height: 6rem;
+       width: 100%;
+       padding: 0;
+       margin: 0;
     }
+
 }
