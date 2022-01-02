@@ -63,7 +63,7 @@ a {
 .headerSignup {
   display: flex;
   align-items: center;
-  grid-area: Singnup;
+  grid-area: button;
   padding: 2rem;
   color: #0065FC;
   font-weight: 600;
@@ -89,7 +89,7 @@ a {
 
 .searchBar {
   display: inline-flex;
-  max-width: 100%;
+  max-width: auto;
   overflow: auto;
 }
 
@@ -111,7 +111,8 @@ a {
   border-bottom: #F2F2F2 1px solid;
   padding: 0.949rem 1.5rem;
   box-sizing: border-box;
-  width: 12.5rem;
+  width: 60%;
+  max-width: 12.5rem;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans serif";
@@ -121,6 +122,10 @@ a {
   font-family: "Raleway", "Sans serif";
   font-size: 1rem;
   color: #00000069;
+}
+
+.searchButtonIcon {
+  display: none;
 }
 
 input:focus {
@@ -549,7 +554,7 @@ input:focus {
     border-top: 3px solid #0065FC;
   }
 }
-@media (max-width: 1621px) {
+@media screen and (max-width: 1621px) {
   .hostingMainElement {
     height: 12rem;
     width: 12rem;
@@ -564,7 +569,7 @@ input:focus {
     margin-left: 0;
   }
 }
-@media (max-width: 1455px) {
+@media screen and (max-width: 1455px) {
   .hostingMainElement {
     height: 14rem;
     width: 10rem;
@@ -621,7 +626,7 @@ input:focus {
     font-size: 15px;
   }
 }
-@media (max-width: 1292px) {
+@media screen and (max-width: 1292px) {
   .hosting {
     display: flex;
     flex-direction: column-reverse;
@@ -673,13 +678,13 @@ input:focus {
     margin-left: 25rem;
   }
 }
-@media (max-width: 1149px) {
+@media screen and (max-width: 1149px) {
   .hostingPopularElement {
     height: 10rem;
     width: 20rem;
   }
 }
-@media (max-width: 1126px) {
+@media screen and (max-width: 1126px) {
   .main {
     padding: 0;
   }
@@ -768,6 +773,70 @@ input:focus {
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+}
+@media screen and (min-width: 601px) {
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo . button" "navbar navbar navbar";
+  }
+
+  .headerimg {
+    order: 0;
+    padding: 0;
+  }
+
+  .headerSignup {
+    order: 1;
+    grid-area: button;
+  }
+
+  .headerNav {
+    order: 2;
+  }
+
+  .headerNavLink {
+    border-top: none;
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
+  }
+
+  .headerNavLink[data-active=true] {
+    border-bottom-color: #0065FC;
+  }
+
+  .headerNavLink:hover {
+    border-bottom-color: #0065FC;
+  }
+
+  .searchButtonText {
+    display: none;
+  }
+
+  .searchButton {
+    width: 0.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+
+  .searchButtonIcon {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .searchFiltersMainTitle {
+    margin-right: 100%;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 

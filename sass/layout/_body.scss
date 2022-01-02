@@ -25,7 +25,7 @@
 
  .searchBar {
      display: inline-flex;
-     max-width: 100%;
+     max-width: auto;
      overflow: auto;
  }
 
@@ -47,7 +47,8 @@
      border-bottom:$grey 1px solid;
      padding: 0.949rem 1.5rem;
      box-sizing: border-box;
-     width: 12.5rem;
+     width: 60%;
+     max-width: 12.5rem;
      font-size: 1rem;
      font-weight: bold;
      font-family: "Raleway", "Sans serif";
@@ -60,6 +61,10 @@
      font-size: 1rem;
      color: #00000069;
 
+ }
+
+ .searchButtonIcon {
+   display: none;
  }
 
  
