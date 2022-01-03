@@ -8,3 +8,18 @@
 @mixin zoomEffect  {
     transform: scale(1.02);
 }
+
+@mixin searchButton {
+    background-color: $blue;
+     width: auto;
+     height: 3.234rem;
+     margin-left: -1.5rem;
+     color: white;
+     font-weight: bold;
+     border: none;
+     border-radius: 0 1rem 1rem 0;
+     padding: 0 1.5rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif "Sans serif";
+     font-size: 1rem;
+     cursor: pointer;
+}

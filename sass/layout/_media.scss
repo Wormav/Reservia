@@ -1,0 +1,346 @@
+//***** Navbar min screen *****//
+
+
+
+@media screen and (min-width: 600px){
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo none navbar Singnup ";
+  }
+
+  .headerNavLink[data-active=true] {
+    border-top: 3px solid $blue   
+  }
+
+  .headerNavLink:hover {
+    border-top: 3px solid $blue    
+  }
+
+}
+
+
+
+//***** STANDAR VERSION *****//
+
+@media screen and (max-width: 1621px){
+
+    .hostingMainElement {
+       height: 12rem;
+       width: 12rem;
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 22rem;
+    }
+
+    .hostingPopularHeaderTitleIcon {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1455px){
+
+//*** hosting ***//
+
+     .hostingMainElement {
+       height: 14rem;
+       width: 10rem;
+    }
+
+    .hostingMainElementFigureImg {
+       height: 6rem;
+       width: 13rem;
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 20rem;
+    }
+
+
+//*** activity ***//
+
+    .figureBig {
+        height: 30rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgBig {
+        height: 25rem;
+        width: 15rem;
+  
+        }
+
+
+    .figureMedium {
+        height: 16rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgMedium {
+        height: 11rem;
+         width: 15rem;
+  
+        }
+
+
+    .figureSmall {
+        height: 11rem;
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: 2.2rem;
+        }
+
+    .imgSmall {
+         height: 7rem;
+        width: 15rem;
+        }
+
+    .activityElementFicaptionLegend {
+        margin-bottom: 12rem;
+        font-size: 15px;
+        }
+
+}
+
+//***** ADAPTED VERSION *****//
+
+@media screen and (max-width:1292px){
+
+
+    .hosting {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        margin-right: 0rem;
+  }
+
+    .hostingPopular {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+           
+    }
+
+    .hostingPopularHeader{
+        margin-right: 30rem;
+    }
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 30rem;
+    }
+
+    .hostingMain {
+        flex-direction: column;
+        width: auto;
+        height: 47rem;
+        margin: 0;
+    }
+
+    .hostingMainHeader{
+        padding-bottom: 0;
+        padding-right: 0;
+        
+    }
+
+    .hostingMainElement {
+         margin-top: 3.5rem;
+         margin-right: 0rem;
+         height: 11rem;
+         width: 30rem;;
+    }
+
+    .hostingMainElementFigureImg {
+        width: 30rem;
+    }
+
+    .hostingMainshowMore {
+        margin-left: 25rem;
+    }
+
+}
+
+@media screen and (max-width: 1149px){
+    
+
+    .hostingPopularElement {
+        height: 10rem;
+        width: 20rem
+    }
+
+}
+
+
+@media screen and (max-width:1126px) {
+    .main {
+        padding: 0;
+    }
+
+    .searchHeaderTitle , .searchHeaderSubtitle , .searchBarWrapicon , .searchFiltersMainTitle ,.searchResult{
+        padding-left: 2rem;
+    }
+
+    .searchBarWrapicon {
+        padding: 1.01rem 1rem;
+        margin-left: 2rem;
+    }
+
+    .hostingPopular{
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .hostingPopularHeader{
+        margin-right: 0;
+    }
+
+
+    .hostingPopularElement{
+        width: 100rem;
+        margin-right: 2rem;
+    }
+
+    .hostingMain {
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        background-color: white;
+    }
+
+    .hostingMainElement{
+        width: auto;
+        margin-right: 2rem;
+    }
+
+    .hostingMainElementFigureImg {
+        width: 100rem;
+    }
+
+    .hostingMainshowMore {
+        margin: 1rem;
+    }
+
+    .activityHeader{
+        margin-left: 2rem;
+    }
+
+    .activity {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-left: 2rem;
+    }
+
+    .activityHeader {
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .activityElementFigure{
+        .figureBig{
+            width: auto;
+            height: auto;
+        }
+
+        .figureMedium{
+            width: auto;
+            height: auto;
+        }
+
+        .figureSmall{
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .activityElementFigure {
+        height: 10rem;
+        width: auto;
+    }
+
+    .activityElementFigureImg{
+       height: 6rem;
+       width: 100%;
+       padding: 0;
+       margin: 0;
+    }
+
+}
+
+
+//***** MOBIL VERSION *****//
+
+@media screen and (min-width: 601px) {
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }
+
+      
+}
+@media screen and (max-width:600px) {
+  .header {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo . button" "navbar navbar navbar";
+  }
+  .headerimg {
+    order: 0;
+    padding: 0;
+  }
+  .headerSignup {
+    order: 1;
+    grid-area: button;
+    
+  }
+  .headerNav {
+    order: 2;
+  }
+  .headerNavLink {
+    border-top: none;
+    border-bottom: 3px solid $grey;
+    width: 50%;
+  }
+  .headerNavLink[data-active=true] {
+    border-bottom-color: $blue;
+  }
+  .headerNavLink:hover {
+    border-bottom-color: $blue;
+  }
+
+  .searchButtonText {
+      display: none;
+  }
+
+  .searchButton {
+    width: 0.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    
+  }
+
+  .searchButtonIcon {
+      display: flex;
+      justify-content: center;
+      color:white;   
+      
+      
+ }
+
+ .searchFiltersMainTitle {
+     margin-right: 100%;
+ }
+
+  .footerContainer{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+}

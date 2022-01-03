@@ -25,7 +25,7 @@
 
  .searchBar {
      display: inline-flex;
-     max-width: 100%;
+     max-width: auto;
      overflow: auto;
  }
 
@@ -47,7 +47,8 @@
      border-bottom:$grey 1px solid;
      padding: 0.949rem 1.5rem;
      box-sizing: border-box;
-     width: 12.5rem;
+     width: 60%;
+     max-width: 12.5rem;
      font-size: 1rem;
      font-weight: bold;
      font-family: "Raleway", "Sans serif";
@@ -62,21 +63,11 @@
 
  }
 
- .searchButton {
-     background-color: $blue;
-     width: auto;
-     height: 3.234rem;
-     margin-left: -1.5rem;
-     color: white;
-     font-weight: bold;
-     border: none;
-     border-radius: 0 1rem 1rem 0;
-     padding: 0 1.5rem;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif "Sans serif";
-     font-size: 1rem;
-     cursor: pointer;
+ .searchButtonIcon {
+   display: none;
  }
 
+ 
  input:focus {
      outline:  none;
 }
@@ -179,8 +170,8 @@
 .hosting {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-right: 9rem;
+  justify-content: space-around;
+  margin-right: 7rem;
   
 }
 .hostingMain {
@@ -191,6 +182,7 @@
   height: 38.75rem;
   width: 55.125rem ;
   border-radius: 1.25rem;
+  margin-right: 4rem;
   
 }
 .hostingMainHeader {
@@ -307,7 +299,7 @@
   background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px black;
+  box-shadow: 0 0 16px 0000002;
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
@@ -459,7 +451,7 @@
 
 .activityElementFicaptionLegend {
   margin-left: 0.75rem;
-  margin-bottom: 0.5rem;
+ 
 }
 
 .activityElementFigure:hover {
