@@ -504,6 +504,9 @@ input:focus {
 }
 
 .footer {
+  max-width: 1920px;
+  margin: auto;
+  box-sizing: border-box;
   background-color: #F2F2F2;
 }
 
@@ -540,7 +543,7 @@ input:focus {
   margin: 1rem 2rem;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .header {
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo none navbar Singnup ";
@@ -554,7 +557,7 @@ input:focus {
     border-top: 3px solid #0065FC;
   }
 }
-@media screen and (max-width: 1621px) {
+@media (max-width: 1621px) {
   .hostingMainElement {
     height: 12rem;
     width: 12rem;
@@ -569,7 +572,7 @@ input:focus {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 1455px) {
+@media (max-width: 1455px) {
   .hostingMainElement {
     height: 14rem;
     width: 10rem;
@@ -626,7 +629,7 @@ input:focus {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 1292px) {
+@media (max-width: 1292px) {
   .hosting {
     display: flex;
     flex-direction: column-reverse;
@@ -678,13 +681,13 @@ input:focus {
     margin-left: 25rem;
   }
 }
-@media screen and (max-width: 1149px) {
+@media (max-width: 1149px) {
   .hostingPopularElement {
     height: 10rem;
     width: 20rem;
   }
 }
-@media screen and (max-width: 1126px) {
+@media (max-width: 1126px) {
   .main {
     padding: 0;
   }
@@ -775,13 +778,13 @@ input:focus {
     margin: 0;
   }
 }
-@media screen and (min-width: 601px) {
+@media (min-width: 601px) {
   .header {
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
   }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .header {
     grid-template-columns: auto 1fr auto;
     grid-template-areas: "logo . button" "navbar navbar navbar";
