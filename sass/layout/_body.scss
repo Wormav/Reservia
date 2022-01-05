@@ -1,144 +1,135 @@
 //*** main ***//
 
 .main {
-     max-width: 1920px;
-     padding: 0 2rem;
-     margin: auto;
-     box-sizing: border-box;
+  max-width: 1920px;
+  padding: 0 2rem;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 //*** main ***//
 
 //*** search ***//
 
+.searchHeaderTitle {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
+  margin-bottom: -1rem;
+}
 
-.searchHeaderTitle{
-     font-family: sans-serif;
-     font-weight: bold;
-     font-size: 1.875rem;
-     margin-bottom: -1rem;
- }
+.searchHeaderSubtitle {
+  font-size: 1.25rem;
+}
 
- .searchHeaderSubtitle {
-     font-size: 1.25rem;
- }
+.searchBar {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: auto;
+}
 
- .searchBar {
-     display: inline-flex;
-     max-width: auto;
-     overflow: auto;
- }
+.searchBarWrapicon {
+  background-color: $grey;
+  padding: 1.01rem 1rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+}
 
- .searchBarWrapicon{
-     background-color: $grey;
-     padding: 1.01rem 1rem;
-     border-radius: 1rem 0 0 1rem;
-     text-align: center;
- }
+.searchBarWrapiconIcon {
+  margin-left: 0.1rem;
+}
 
- .searchBarWrapiconIcon{
-     margin-left: 0.1rem;
- }
+.searchSubmit {
+  border-right: none;
+  border-left: none;
+  border-top: $grey 1px solid;
+  border-bottom: $grey 1px solid;
+  padding: 0.949rem 1.5rem;
+  box-sizing: border-box;
+  width: 60%;
+  max-width: 12.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+}
 
- .searchSubmit {
-     border-right: none;
-     border-left: none;
-     border-top:$grey 1px solid;
-     border-bottom:$grey 1px solid;
-     padding: 0.949rem 1.5rem;
-     box-sizing: border-box;
-     width: 60%;
-     max-width: 12.5rem;
-     font-size: 1rem;
-     font-weight: bold;
-     font-family: "Raleway", "Sans serif";
- }
- 
+.searchSubmit::placeholder {
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  color: #00000069;
+}
 
+.searchButtonIcon {
+  display: none;
+}
 
- .searchSubmit::placeholder{
-     font-family: "Raleway", "Sans serif";
-     font-size: 1rem;
-     color: #00000069;
-
- }
-
- .searchButtonIcon {
-   display: none;
- }
-
- 
- input:focus {
-     outline:  none;
+input:focus {
+  outline: none;
 }
 
 .searchFilters {
-    display:flex;
-    margin-top: 2rem ;
-    flex-wrap:wrap ;
-    align-items: center;
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .searchFiltersMainTitle {
-    margin: 0 1rem 0rem 0;
-    display: flex;
-    align-items: center;
-    font-size: 1.25rem;
-    font-family: sans-serif;
+  margin: 0 1rem 0rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-family: sans-serif;
 }
 
-
-
 .searchFiltersTitle {
-    display: flex;
-    margin: 1rem ;
-    border: 2px $grey solid ;
-    border-radius: 2rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
-    transition: 0,1s;
-    font-weight: bold;
-    font-family: sans-serif;
-    align-items: center;
+  display: flex;
+  margin: 1rem;
+  border: 2px $grey solid;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 1ms;
+  font-weight: bold;
+  font-family: sans-serif;
+  align-items: center;
 }
 
 .searchFiltersElemenTitle {
   padding-left: 1rem;
   padding-right: 1rem;
 }
- 
 
-
-.searchFiltersTitle:hover{
-    background-color: #f3F8FF;
-    transform: scale(1.015);
+.searchFiltersTitle:hover {
+  background-color: #f3f8ff;
+  transform: scale(1.015);
 }
 
 .searchFiltersWrapicon {
-    background-color: $blueLight;
-    border-radius: 100%;
-    width: 4rem;
-    height: 4rem;
-    min-width: 3.5rem;
-    min-height: 3.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -2px;
+  background-color: $blueLight;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  min-width: 3.5rem;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
 }
 
 .searchFiltersWrapiconIcon {
-    color:$blue;
+  color: $blue;
 }
 
 .searchFiltersElement {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .searchResult {
-    display: flex;
-    align-items: center;
-    margin: 1rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
 }
 
 .searchResultWrapicon {
@@ -160,7 +151,6 @@
   margin: 0;
 }
 
-
 //*** Search ***//
 
 //*** Hosting ***//
@@ -172,7 +162,6 @@
   flex-direction: row;
   justify-content: space-around;
   margin-right: 7rem;
-  
 }
 .hostingMain {
   display: flex;
@@ -180,17 +169,15 @@
   flex-wrap: wrap;
   background-color: $grey;
   height: 38.75rem;
-  width: 55.125rem ;
+  width: 55.125rem;
   border-radius: 1.25rem;
   margin-right: 4rem;
-  
 }
 .hostingMainHeader {
   padding-left: 2rem;
   padding-right: 20rem;
   padding-bottom: 1rem;
   height: 0.5rem;
-  
 }
 
 .hostingMainElement {
@@ -208,7 +195,7 @@
   margin-right: 2rem;
 }
 .hostingMainElement:hover {
-  @include zoomEffect ;
+  @include zoomEffect;
 }
 .hostingMainElementFigure {
   margin: 0;
@@ -236,10 +223,10 @@
 .hostingMainElementNotation {
   margin: 0 0.75rem 0.25rem 0.75rem;
 }
-.hostingMainElementNotationIcon[data-active=true] {
+.hostingMainElementNotationIcon[data-active="true"] {
   color: $blue;
 }
-.hostingMainElementNotationIcon[data-active=false] {
+.hostingMainElementNotationIcon[data-active="false"] {
   color: $greyDark;
 }
 .hostingMainViewmore {
@@ -255,18 +242,17 @@
 
 //*** Hosting Popular ***//
 
-
 .hostingPopular {
-   display: flex;
+  display: flex;
   flex-direction: column;
   background-color: $grey;
   height: 38.938rem;
-  width: 31.25rem ;
+  width: 31.25rem;
   border-radius: 1.25rem;
   margin-bottom: 1rem;
 }
 
-.hostingPopularElementA {  
+.hostingPopularElementA {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -278,7 +264,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 .hostingPopularHeader {
@@ -294,12 +279,11 @@
   margin-left: 12rem;
 }
 
-
 .hostingPopularElement {
   background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px 0000002;
+  box-shadow: 0 0 16px #0000002e;
   transition-duration: 0.1s;
   cursor: pointer;
   box-sizing: border-box;
@@ -307,11 +291,11 @@
   width: 26.563rem;
   margin-left: 2rem;
   margin-top: 2.2rem;
-  
 }
 
 .hostingPopularElement:hover {
-  @include zoomEffect }
+  @include zoomEffect;
+}
 
 .hostingPopularElementFigure {
   margin: 0;
@@ -325,7 +309,6 @@
   max-height: 100%;
   border-radius: 1rem 0 0 1rem;
   position: absolute;
-  
 }
 
 .hostingPopularElementFicaptionLegend {
@@ -333,19 +316,19 @@
   font-size: 1rem;
 }
 .hostingPopularElementRate {
- margin-left: 10rem;
- 
+  margin-left: 10rem;
 }
 .hostingPopularElementRatePrice {
   font-weight: bold;
   font-size: 0.8rem;
 }
 .hostingPopularElementNotation {
-  margin-left: 10rem;}
-.hostingPopularElementNotationIcon[data-active=true] {
+  margin-left: 10rem;
+}
+.hostingPopularElementNotationIcon[data-active="true"] {
   color: $blue;
 }
-.hostingPopularElementNotationIcon[data-active=false] {
+.hostingPopularElementNotationIcon[data-active="false"] {
   color: $greyDark;
 }
 
@@ -355,7 +338,7 @@
 
 //*** Activity ***//
 
-.activity{
+.activity {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -371,7 +354,6 @@
 
 .activityHeaderTitle {
   padding-bottom: 2rem;
-  
 }
 
 .figureBig {
@@ -389,16 +371,14 @@
 }
 
 .imgBig {
-   height: 25rem;
-   width: 20rem;
-   padding: 0.375rem;
-   border-radius: 1.25rem 1.25rem 0 0 ;
-   margin-left: -0.75rem;
-   margin-top: -0.75rem;
-   overflow: hidden;
-   
+  height: 25rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
 }
-
 
 .figureMedium {
   background-color: white;
@@ -415,18 +395,17 @@
 }
 
 .imgMedium {
-   height: 11rem;
-   width: 20rem;
-   padding: 0.375rem;
-   border-radius: 1.25rem 1.25rem 0 0 ;
-   margin-left: -0.75rem;
-   margin-top: -0.75rem;
-   overflow: hidden;
+  height: 11rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
 }
 
-
 .figureSmall {
-   background-color: white;
+  background-color: white;
   padding: 0.375rem;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
@@ -440,23 +419,26 @@
 }
 
 .imgSmall {
-   height: 7rem;
-   width: 20rem;
-   padding: 0.375rem;
-   border-radius: 1.25rem 1.25rem 0 0 ;
-   margin-left: -0.75rem;
-   margin-top: -0.75rem;
-   overflow: hidden;
+  height: 7rem;
+  width: 20rem;
+  padding: 0.375rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-left: -0.75rem;
+  margin-top: -0.75rem;
+  overflow: hidden;
 }
 
 .activityElementFicaptionLegend {
   margin-left: 0.75rem;
- 
 }
 
 .activityElementFigure:hover {
   @include zoomEffect;
 }
 
-//*** Activity ***//
+.forNotErros {
+  //*** To have no errors on the html validator ***//
+  display: none;
+}
 
+//*** Activity ***//
