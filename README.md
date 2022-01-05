@@ -8,9 +8,9 @@ Second project of the web developer path at OpenClassrooms. The objective is to 
 
 - The mockup for computer and phone resolutions is given to us.
 - All images on the site are also delivered in sm, md, l & xl format.
-- The icons come from Font Awesome.
+- The icons come from [Font Awesome](https://fontawesome.com).
 - The colors are: blue # 0065FC - light blue #DEEBFF - gray # F2F2F2.
-- The font is "Raleway".
+- The font is ["Raleway"](https://fonts.google.com/specimen/Raleway).
 
 ## Specifications
 
@@ -21,16 +21,16 @@ Second project of the web developer path at OpenClassrooms. The objective is to 
 - In the menu, the “Accommodation” and “Activities” links are anchors that must lead to the sections of the page.
 - Even though no tablet resolution mockup is provided, the integration must support it.
 - The images must be of adequate size so that they are as attractive as possible while having as little impact as possible on the loading time of the page.
-- The code must use semantic tags and must not contain any errors or alerts to the W3C HTML and CSS validator.
+- [The code must use semantic tags and must not contain any errors or alerts to the W3C HTML and CSS validator.](https://validator.w3.org)
 - The site must be compatible with the latest versions of Chrome and Firefox.
 - HTML and CSS should be separated and the folder should be organized.
 - The code must be versioned with git and must have a remote repo on Github or Gitlab
 
 ## Notes on the realization of the project
 
--The integration is done on the Visual Studio Code editor with the Live server, Live Sass Compiler & Github copilot plugins. The theme, UI and keyboard shortcuts are customized.
-- Sass is used to organize the css.
+- The integration is done on the Visual Studio Code editor with the [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) & [Github copilot](https://copilot.github.com/) plugins. The theme, UI and keyboard shortcuts are customized.
+- [Sass](https://sass-lang.com) is used to organize the css.
 
 ## Contact
 
-You can contact me by email
+You can contact me by [email](jeremy.lorette@outlook.com).

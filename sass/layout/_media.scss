@@ -2,7 +2,7 @@
 
 
 
-@media screen and (min-width: 600px){
+@media (min-width: 600px){
   .header {
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo none navbar Singnup ";
@@ -22,7 +22,7 @@
 
 //***** STANDAR VERSION *****//
 
-@media screen and (max-width: 1621px){
+@media (max-width: 1621px){
 
     .hostingMainElement {
        height: 12rem;
@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 1455px){
+@media (max-width: 1455px){
 
 //*** hosting ***//
 
@@ -110,7 +110,7 @@
 
 //***** ADAPTED VERSION *****//
 
-@media screen and (max-width:1292px){
+@media (max-width:1292px){
 
 
     .hosting {
@@ -168,7 +168,7 @@
 
 }
 
-@media screen and (max-width: 1149px){
+@media (max-width: 1149px){
     
 
     .hostingPopularElement {
@@ -179,7 +179,7 @@
 }
 
 
-@media screen and (max-width:1126px) {
+@media (max-width:1126px) {
     .main {
         padding: 0;
     }
@@ -280,7 +280,7 @@
 
 //***** MOBIL VERSION *****//
 
-@media screen and (min-width: 601px) {
+@media (min-width: 601px) {
   .header {
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
@@ -288,7 +288,7 @@
 
       
 }
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
   .header {
     grid-template-columns: auto 1fr auto;
     grid-template-areas: "logo . button" "navbar navbar navbar";
