@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 .searchButton {
-  background-color: #0065fc;
+  background-color: #0065FC;
   width: auto;
   height: 3.234rem;
   margin-left: -1.5rem;
@@ -52,12 +52,12 @@ a {
   border-bottom: 3px transparent solid;
 }
 
-.headerNavLink[data-active="true"] {
-  color: #0065fc;
+.headerNavLink[data-active=true] {
+  color: #0065FC;
 }
 
 .headerNavLink:hover {
-  color: #0065fc;
+  color: #0065FC;
 }
 
 .headerSignup {
@@ -65,7 +65,7 @@ a {
   align-items: center;
   grid-area: button;
   padding: 2rem;
-  color: #0065fc;
+  color: #0065FC;
   font-weight: 600;
 }
 
@@ -94,7 +94,7 @@ a {
 }
 
 .searchBarWrapicon {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   padding: 1.01rem 1rem;
   border-radius: 1rem 0 0 1rem;
   text-align: center;
@@ -107,8 +107,8 @@ a {
 .searchSubmit {
   border-right: none;
   border-left: none;
-  border-top: #f2f2f2 1px solid;
-  border-bottom: #f2f2f2 1px solid;
+  border-top: #F2F2F2 1px solid;
+  border-bottom: #F2F2F2 1px solid;
   padding: 0.949rem 1.5rem;
   box-sizing: border-box;
   width: 60%;
@@ -150,7 +150,7 @@ input:focus {
 .searchFiltersTitle {
   display: flex;
   margin: 1rem;
-  border: 2px #f2f2f2 solid;
+  border: 2px #F2F2F2 solid;
   border-radius: 2rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -171,7 +171,7 @@ input:focus {
 }
 
 .searchFiltersWrapicon {
-  background-color: #deebff;
+  background-color: #DEEBFF;
   border-radius: 100%;
   width: 4rem;
   height: 4rem;
@@ -184,7 +184,7 @@ input:focus {
 }
 
 .searchFiltersWrapiconIcon {
-  color: #0065fc;
+  color: #0065FC;
 }
 
 .searchFiltersElement {
@@ -211,7 +211,7 @@ input:focus {
 }
 
 .searchResultWrapiconIcon {
-  color: #0065fc;
+  color: #0065FC;
 }
 
 .searchResultText {
@@ -229,7 +229,7 @@ input:focus {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   height: 38.75rem;
   width: 55.125rem;
   border-radius: 1.25rem;
@@ -293,11 +293,11 @@ input:focus {
   margin: 0 0.75rem 0.25rem 0.75rem;
 }
 
-.hostingMainElementNotationIcon[data-active="true"] {
-  color: #0065fc;
+.hostingMainElementNotationIcon[data-active=true] {
+  color: #0065FC;
 }
 
-.hostingMainElementNotationIcon[data-active="false"] {
+.hostingMainElementNotationIcon[data-active=false] {
   color: #d9d9d9;
 }
 
@@ -313,7 +313,7 @@ input:focus {
 .hostingPopular {
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   height: 38.938rem;
   width: 31.25rem;
   border-radius: 1.25rem;
@@ -397,11 +397,11 @@ input:focus {
   margin-left: 10rem;
 }
 
-.hostingPopularElementNotationIcon[data-active="true"] {
-  color: #0065fc;
+.hostingPopularElementNotationIcon[data-active=true] {
+  color: #0065FC;
 }
 
-.hostingPopularElementNotationIcon[data-active="false"] {
+.hostingPopularElementNotationIcon[data-active=false] {
   color: #d9d9d9;
 }
 
@@ -441,6 +441,7 @@ input:focus {
   height: 25rem;
   width: 20rem;
   padding: 0.375rem;
+  object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
   margin-top: -0.75rem;
@@ -464,6 +465,7 @@ input:focus {
 .imgMedium {
   height: 11rem;
   width: 20rem;
+  object-fit: cover;
   padding: 0.375rem;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
@@ -489,6 +491,7 @@ input:focus {
   height: 7rem;
   width: 20rem;
   padding: 0.375rem;
+  object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
   margin-top: -0.75rem;
@@ -511,7 +514,7 @@ input:focus {
   max-width: 1920px;
   margin: auto;
   box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
 
 .footerContainer {
@@ -553,12 +556,12 @@ input:focus {
     grid-template-areas: "logo none navbar Singnup ";
   }
 
-  .headerNavLink[data-active="true"] {
-    border-top: 3px solid #0065fc;
+  .headerNavLink[data-active=true] {
+    border-top: 3px solid #0065FC;
   }
 
   .headerNavLink:hover {
-    border-top: 3px solid #0065fc;
+    border-top: 3px solid #0065FC;
   }
 }
 @media (max-width: 1621px) {
@@ -696,11 +699,7 @@ input:focus {
     padding: 0;
   }
 
-  .searchHeaderTitle,
-  .searchHeaderSubtitle,
-  .searchBarWrapicon,
-  .searchFiltersMainTitle,
-  .searchResult {
+  .searchHeaderTitle, .searchHeaderSubtitle, .searchBarWrapicon, .searchFiltersMainTitle, .searchResult {
     padding-left: 2rem;
   }
 
@@ -814,16 +813,16 @@ input:focus {
 
   .headerNavLink {
     border-top: none;
-    border-bottom: 3px solid #f2f2f2;
+    border-bottom: 3px solid #F2F2F2;
     width: 50%;
   }
 
-  .headerNavLink[data-active="true"] {
-    border-bottom-color: #0065fc;
+  .headerNavLink[data-active=true] {
+    border-bottom-color: #0065FC;
   }
 
   .headerNavLink:hover {
-    border-bottom-color: #0065fc;
+    border-bottom-color: #0065FC;
   }
 
   .searchButtonText {

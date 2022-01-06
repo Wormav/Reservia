@@ -374,6 +374,7 @@ input:focus {
   height: 25rem;
   width: 20rem;
   padding: 0.375rem;
+  object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
   margin-top: -0.75rem;
@@ -397,6 +398,7 @@ input:focus {
 .imgMedium {
   height: 11rem;
   width: 20rem;
+  object-fit: cover;
   padding: 0.375rem;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
@@ -422,6 +424,7 @@ input:focus {
   height: 7rem;
   width: 20rem;
   padding: 0.375rem;
+  object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin-left: -0.75rem;
   margin-top: -0.75rem;
