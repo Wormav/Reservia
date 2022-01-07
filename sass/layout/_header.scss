@@ -29,7 +29,7 @@ a {
   border-top: 3px transparent solid;
   border-bottom: 3px transparent solid;
 }
-.headerNavLink[data-active=true] {
+.headerNavLink[data-active="true"] {
   color: $blue;
 }
 .headerNavLink:hover {
@@ -43,4 +43,3 @@ a {
   color: $blue;
   font-weight: 600;
 }
-

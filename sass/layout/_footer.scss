@@ -1,32 +1,30 @@
 .footer {
-    max-width: 1920px;
-    margin: auto;
-    box-sizing: border-box;
-    background-color: $grey;
-
-    
+  max-width: 1920px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: $grey;
 }
 
 .footerContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-right: 20rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-right: 20rem;
 }
 
 .fotterContainerLink {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .footerContainerAbout {
-    @include footerContainerElement;
+  @include footerContainerElement;
 }
 
 .footerContainerHosting {
-    @include footerContainerElement;
+  @include footerContainerElement;
 }
 
 .footerContainerHosting {
-    @include footerContainerElement;
+  @include footerContainerElement;
 }

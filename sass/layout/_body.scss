@@ -96,8 +96,7 @@ input:focus {
 }
 
 .searchFiltersElemenTitle {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 .searchFiltersTitle:hover {
@@ -106,13 +105,13 @@ input:focus {
 }
 
 .searchFiltersWrapicon {
+  display: flex;
   background-color: $blueLight;
   border-radius: 100%;
   width: 4rem;
   height: 4rem;
   min-width: 3.5rem;
   min-height: 3.5rem;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin: -2px;
@@ -133,13 +132,13 @@ input:focus {
 }
 
 .searchResultWrapicon {
+  display: flex;
   height: 2rem;
   width: 2rem;
   min-height: 2rem;
   min-width: 2rem;
   border: solid 1px $greyDark;
   border-radius: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 1rem;
@@ -174,9 +173,7 @@ input:focus {
   margin-right: 4rem;
 }
 .hostingMainHeader {
-  padding-left: 2rem;
-  padding-right: 20rem;
-  padding-bottom: 1rem;
+  padding: 0 20rem 1rem 1rem;
   height: 0.5rem;
 }
 
@@ -190,9 +187,7 @@ input:focus {
   box-sizing: border-box;
   height: 11.875rem;
   width: 14.375rem;
-  margin-left: 2rem;
-  margin-top: 0.5rem;
-  margin-right: 2rem;
+  margin: 0.5rem 2rem 0 2rem;
 }
 .hostingMainElement:hover {
   @include zoomEffect;
@@ -270,8 +265,7 @@ input:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 2rem;
-  padding-bottom: 1rem;
+  padding: 0 0 1rem 2rem;
   height: 0.7rem;
 }
 
@@ -289,8 +283,7 @@ input:focus {
   box-sizing: border-box;
   height: 10rem;
   width: 26.563rem;
-  margin-left: 2rem;
-  margin-top: 2.2rem;
+  margin: 2.2rem 0 0 2rem;
 }
 
 .hostingPopularElement:hover {
@@ -346,9 +339,8 @@ input:focus {
 }
 
 .activityHeader {
+  padding: 0 25rem 1rem 0;
   margin-right: 20rem;
-  padding-right: 25rem;
-  padding-bottom: 1rem;
   height: 0.5rem;
 }
 
@@ -366,7 +358,6 @@ input:focus {
   box-sizing: border-box;
   height: 30rem;
   width: 20rem;
-  margin-left: 0rem;
   margin-top: 2.2rem;
 }
 
@@ -376,8 +367,7 @@ input:focus {
   padding: 0.375rem;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-  margin-left: -0.75rem;
-  margin-top: -0.75rem;
+  margin: -0.75rem 0 0 -0.75rem;
   overflow: hidden;
 }
 
@@ -391,7 +381,6 @@ input:focus {
   box-sizing: border-box;
   height: 16rem;
   width: 20rem;
-  margin-left: 0rem;
   margin-top: 2.2rem;
 }
 
@@ -401,8 +390,7 @@ input:focus {
   object-fit: cover;
   padding: 0.375rem;
   border-radius: 1.25rem 1.25rem 0 0;
-  margin-left: -0.75rem;
-  margin-top: -0.75rem;
+  margin: -0.75rem 0 0 -0.75rem;
   overflow: hidden;
 }
 
@@ -416,7 +404,6 @@ input:focus {
   box-sizing: border-box;
   height: 11rem;
   width: 20rem;
-  margin-left: 0rem;
   margin-top: 2.2rem;
 }
 
@@ -426,8 +413,7 @@ input:focus {
   padding: 0.375rem;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
-  margin-left: -0.75rem;
-  margin-top: -0.75rem;
+  margin: -0.75rem 0 0 -0.75rem;
   overflow: hidden;
 }
 
