@@ -53,6 +53,30 @@
   font-family: "Raleway", "Sans serif";
 }
 
+.searchSubmit::-webkit-input-placeholder {
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  color: #00000069;
+}
+
+.searchSubmit::-moz-placeholder {
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  color: #00000069;
+}
+
+.searchSubmit:-ms-input-placeholder {
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  color: #00000069;
+}
+
+.searchSubmit::-ms-input-placeholder {
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  color: #00000069;
+}
+
 .searchSubmit::placeholder {
   font-family: "Raleway", "Sans serif";
   font-size: 1rem;
@@ -197,7 +221,8 @@ input:focus {
 }
 .hostingMainElementFigureImg {
   height: 6.563rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 100%;
   width: 13.75rem;
   max-height: 100%;
@@ -296,7 +321,8 @@ input:focus {
 
 .hostingPopularElementFigureImg {
   height: 9.188rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 100%;
   width: 8.75rem;
   max-height: 100%;
@@ -365,7 +391,8 @@ input:focus {
   height: 25rem;
   width: 20rem;
   padding: 0.375rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin: -0.75rem 0 0 -0.75rem;
   overflow: hidden;
@@ -387,7 +414,8 @@ input:focus {
 .imgMedium {
   height: 11rem;
   width: 20rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding: 0.375rem;
   border-radius: 1.25rem 1.25rem 0 0;
   margin: -0.75rem 0 0 -0.75rem;
@@ -411,7 +439,8 @@ input:focus {
   height: 7rem;
   width: 20rem;
   padding: 0.375rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
   margin: -0.75rem 0 0 -0.75rem;
   overflow: hidden;
