@@ -33,4 +33,4 @@ Second project of the web developer path at OpenClassrooms. The objective is to 
 
 ## Contact
 
-You can contact me by [email](jeremy.lorette@outlook.com).
+You can contact me by email : jeremy.lorette@outlook.com
